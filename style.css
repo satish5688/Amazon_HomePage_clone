@@ -36,6 +36,7 @@
 
 .border:hover{
     border: 1px solid white;
+    border-radius: 5px;
 }
 
 
@@ -45,17 +46,24 @@
     color:#cccccc;
     font-size: 0.85rem;
     margin-left: 15px;
+    
 
 }
 
 .location{
     font-size: 1rem;
     margin-left: 3px;
+    
 
+}
+
+.nav-address{
+    padding: 5px;
 }
 
 .address-icon{
     display: flex;
+    padding-left: 10px;
 }
 
 /* box 3 */
@@ -104,6 +112,10 @@
 
 /* box 4 */
 
+.nav-signin{
+    padding: 5px;
+}
+
 span{
     font-size: .8rem;
 }
@@ -111,6 +123,12 @@ span{
 .nav-text{
     font-size: 1rem;
     font-weight: 700;
+}
+
+/** box 5 ***/
+
+.nav-returns{
+    padding: 5px;
 }
 
 /* box 6 */
@@ -122,7 +140,9 @@ span{
 .nav-cart{
     font-size:0.85rem;
     font-weight: 700;
+    padding: 5px;
 }
+
 
 
 /* panel  */
@@ -135,12 +155,12 @@ span{
  color:white ;
  justify-content: space-evenly;
  align-items: center;
-
 }
 
 .panel-ops p{
     display: inline;
     margin-left: 15px;
+    padding: 5px;
 }
 
 .panel-ops{
@@ -150,6 +170,7 @@ span{
 .panel-deals{
     font-size: 0.9rem;
     font-weight: 700;
+    padding: 5px;
 }
 
 /*** Hero Section ***/ 
